@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Cup Qatar 2022</title>
+    <link rel="shortcut icon" href="../assets/icono.jpg" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/379e0e069e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/grupos.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <style>
+        body {
+            background-image: url(../assets/stadiums/estadio1.jpg);
+            background-size: cover;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header id="header">
+        <h3 id="sorteo">Elige un grupo para sortear</h3>
+        <nav id="nav">
+            <a href="../index.html" data-pagina="index" id="inicio">INICIO</a>
+            <a href="../html/grupoa.html" data-pagina="grupoa" id="grupos">GRUPO A</a>
+            <a href="../html/grupob.html" data-pagina="grupob" id="grupos">GRUPO B</a>
+            <a href="../html/grupoc.html" data-pagina="grupoc" id="grupos">GRUPO C</a>
+            <a href="../html/grupod.html" data-pagina="grupod" id="grupos">GRUPO D</a>
+            <a href="../html/grupoe.html" data-pagina="grupoe" id="grupos">GRUPO E</a>
+            <a href="../html/grupof.html" data-pagina="grupof" id="grupos">GRUPO F</a>
+            <a href="../html/grupog.html" data-pagina="grupog" id="grupos">GRUPO G</a>
+            <a href="../html/grupoh.html" data-pagina="grupoh" id="grupos">GRUPO H</a>
+        </nav>
+    </header>
+
+    <section id="section1">
+
+        <div id="squads">
+
+            <button type="submit" class="stats" id="grupog0">ALINEACIONES</button>
+            <img src="../assets/squad/brasil.png" id="bra" class="local">
+            <div id="A1" class="resultado">0</div>
+            <p>
+                <b id="fecha">24 de Noviembre - 07:00hs</b>
+                <button type="button" class="button" id="button1"><i class="fa-solid fa-futbol"></i></button>
+            </p>
+            <div id="B1" class="resultado">0</div>
+            <img src="../assets/squad/serbia.png" id="ser" class="visita">
+
+        </div>
+
+        <div id="squads">
+
+            <button type="submit" class="stats" id="grupog1">ALINEACIONES</button>
+            <img src="../assets/squad/suiza.png" id="sui" class="local">
+            <div id="C1" class="resultado">0</div>
+            <p>
+                <b id="fecha">24 de Noviembre - 16:00hs</b>
+                <button type="button" class="button" id="button2"><i class="fa-solid fa-futbol"></i></button>
+            </p>
+            <div id="D1" class="resultado">0</div>
+            <img src="../assets/squad/camerun.png" id="cam" class="visita">
+
+        </div>
+
+        <div id="squads">
+
+            <button type="submit" class="stats" id="grupog2">ALINEACIONES</button>
+            <img src="../assets/squad/camerun.png" id="cam" class="local">
+            <div id="D2" class="resultado">0</div>
+            <p>
+                <b id="fecha">28 de Noviembre - 07:00hs</b>
+                <button type="button" class="button" id="button3"><i class="fa-solid fa-futbol"></i></button>
+            </p>
+            <div id="B2" class="resultado">0</div>
+            <img src="../assets/squad/serbia.png" id="ser" class="visita">
+
+        </div>
+
+        <div id="squads">
+
+            <button type="submit" class="stats" id="grupog3">ALINEACIONES</button>
+            <img src="../assets/squad/brasil.png" id="bra" class="local">
+            <div id="A2" class="resultado">0</div>
+            <p>
+                <b id="fecha">28 de Noviembre - 13:00hs</b>
+                <button type="button" class="button" id="button4"><i class="fa-solid fa-futbol"></i></button>
+            </p>
+            <div id="C2" class="resultado">0</div>
+            <img src="../assets/squad/suiza.png" id="sui" class="visita">
+
+        </div>
+
+        <div id="squads">
+
+            <button type="submit" class="stats" id="grupog4">ALINEACIONES</button>
+            <img src="../assets/squad/camerun.png" id="cam" class="local">
+            <div id="D3" class="resultado">0</div>
+            <p>
+                <b id="fecha">02 de Diciembre - 16:00hs</b>
+                <button type="button" class="button" id="button5"><i class="fa-solid fa-futbol"></i></button>
+            </p>
+            <div id="A3" class="resultado">0</div>
+            <img src="../assets/squad/brasil.png" id="bra" class="visita">
+
+        </div>
+
+        <div id="squads">
+
+            <button type="submit" class="stats" id="grupog5">ALINEACIONES</button>
+            <img src="../assets/squad/serbia.png" id="ser" class="local">
+            <div id="B3" class="resultado">0</div>
+            <p>
+                <b id="fecha">02 de Diciembre - 16:00hs</b>
+                <button type="button" class="button" id="button6"><i class="fa-solid fa-futbol"></i></button>
+            </p>
+            <div id="C3" class="resultado">0</div>
+            <img src="../assets/squad/suiza.png" id="sui" class="visita">
+
+        </div>
+
+    </section>
+
+    <section id="section2">
+
+        <div id="alineacionContainer" class="alineacionContainer">
+            <div id="bottom" class="panel bottom">
+                <div class="content">
+                    <div id="visitante" class="description1">
+                    </div>
+                    <img id="img1" src="" alt="visitantes">
+                </div>
+            </div>
+            <div id="top" class="panel top">
+                <div class="content">
+                    <div id="local" class="description2">
+                    </div>
+                    <img id="img2" src="" alt="locales">
+                </div>
+            </div>
+            <div class="mover"></div>
+        </div>
+        <div id="cerrar">
+            <a href=""><button class="btn" id="close">VOLVER</button></a>
+        </div>
+
+    </section>
+
+    <script src="../js/grupos.js"></script>
+    <script src="../js/alineaciones.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+    <script>
+
+        g0.addEventListener('click', () => {
+            const info = alineacionContainer.classList.add('show');
+            body.innerHTML = info;
+            const btn = btnVolver.classList.add('btnShow');
+            body.classList.add('btn');
+            header.classList.add('btn');
+            document.querySelector('#bottom').setAttribute("style", "background-color:#0B0B3Bc1;");
+            document.querySelector('#top').setAttribute("style", "background-color:#0B610Bc1;");
+            img2.setAttribute('src', '../assets/flags/brasil.jpg');
+            img1.setAttribute('src', '../assets/flags/serbia.jpg');
+            grupog0()
+        });
+        g1.addEventListener('click', () => {
+            const info = alineacionContainer.classList.add('show');
+            body.innerHTML = info;
+            const btn = btnVolver.classList.add('btnShow');
+            body.classList.add('btn');
+            header.classList.add('btn');
+            document.querySelector('#bottom').setAttribute("style", "background-color:#012A00c1;");
+            document.querySelector('#top').setAttribute("style", "background-color:#500000c1;");
+            img2.setAttribute('src', '../assets//flags/suiza.jpg');
+            img1.setAttribute('src', '../assets/flags/camerun.jpg');
+            grupog1()
+        });
+        g2.addEventListener('click', () => {
+            const info = alineacionContainer.classList.add('show');
+            body.innerHTML = info;
+            const btn = btnVolver.classList.add('btnShow');
+            body.classList.add('btn');
+            header.classList.add('btn');
+            document.querySelector('#bottom').setAttribute("style", "background-color:#0B0B3Bc1;");
+            document.querySelector('#top').setAttribute("style", "background-color:#012A00c1;");
+            img2.setAttribute('src', '../assets/flags/camerun.jpg');
+            img1.setAttribute('src', '../assets/flags/serbia.jpg');
+            grupog2()
+        });
+        g3.addEventListener('click', () => {
+            const info = alineacionContainer.classList.add('show');
+            body.innerHTML = info;
+            const btn = btnVolver.classList.add('btnShow');
+            body.classList.add('btn');
+            header.classList.add('btn');
+            document.querySelector('#bottom').setAttribute("style", "background-color:#500000c1;");
+            document.querySelector('#top').setAttribute("style", "background-color:#0B610Bc1;");
+            img2.setAttribute('src', '../assets/flags/brasil.jpg');
+            img1.setAttribute('src', '../assets/flags/suiza.jpg');
+            grupog3()
+        });
+        g4.addEventListener('click', () => {
+            const info = alineacionContainer.classList.add('show');
+            body.innerHTML = info;
+            const btn = btnVolver.classList.add('btnShow');
+            body.classList.add('btn');
+            header.classList.add('btn');
+            document.querySelector('#bottom').setAttribute("style", "background-color:#0B610Bc1;");
+            document.querySelector('#top').setAttribute("style", "background-color:#012A00c1;");
+            img2.setAttribute('src', '../assets/flags/camerun.jpg');
+            img1.setAttribute('src', '../assets/flags/brasil.jpg');
+            grupog4()
+        });
+        g5.addEventListener('click', () => {
+            const info = alineacionContainer.classList.add('show');
+            body.innerHTML = info;
+            const btn = btnVolver.classList.add('btnShow');
+            body.classList.add('btn');
+            header.classList.add('btn');
+            document.querySelector('#bottom').setAttribute("style", "background-color:#500000c1;");
+            document.querySelector('#top').setAttribute("style", "background-color:#0B0B3Bc1;");
+            img2.setAttribute('src', '../assets/flags/serbia.jpg');
+            img1.setAttribute('src', '../assets/flags/suiza.jpg');
+            grupog5()
+        });
+
+        const partido0 = btn[0].addEventListener('click', () => {
+            const golesA = Math.floor(Math.random() * 5);
+            const golesB = Math.floor(Math.random() * 5);
+            equipo1[0].innerHTML = golesA;
+            equipo2[0].innerHTML = golesB;
+
+            if (golesA > golesB) {
+                Toastify({ text: "BRASIL + 3 PUNTOS", duration: 10000, style: { background: "#0B610Bc1", }, offset: { x: '8em', y: '14em' }, }).showToast();
+            } else if (golesA == golesB) {
+                Toastify({ text: "BRASIL + 1 PUNTO", duration: 10000, style: { background: "#0B610Bc1", }, offset: { x: '8em', y: '14em' }, }).showToast();
+                Toastify({ text: "SERBIA+ 1 PUNTO", duration: 10000, style: { background: "#0B0B3Bc1", }, offset: { x: '8em', y: '14em' }, }).showToast();
+            } else {
+                Toastify({ text: "SERBIA+ 3 PUNTOS", duration: 10000, style: { background: "#0B0B3Bc1", }, offset: { x: '8em', y: '14em' }, }).showToast();
+            };
+        });
+
+        const partido1 = btn[1].addEventListener('click', () => {
+            const golesA = Math.floor(Math.random() * 5);
+            const golesB = Math.floor(Math.random() * 5);
+            equipo3[0].innerHTML = golesA;
+            equipo4[0].innerHTML = golesB;
+
+            if (golesA > golesB) {
+                Toastify({ text: "SUIZA + 3 PUNTOS", duration: 10000, style: { background: "#500000c1", }, offset: { x: '8em', y: '14em' }, }).showToast();
+            } else if (golesA == golesB) {
+                Toastify({ text: "SUIZA + 1 PUNTO", duration: 10000, style: { background: "#500000c1", }, offset: { x: '8em', y: '14em' }, }).showToast();
+                Toastify({ text: "CAMERUN + 1 PUNTO", duration: 10000, style: { background: "#012A00c1", }, offset: { x: '8em', y: '14em' }, }).showToast();
+            } else {
+                Toastify({ text: "CAMERUN + 3 PUNTOS", duration: 10000, style: { background: "#012A00c1", }, offset: { x: '8em', y: '14em' }, }).showToast();
+            };
+        });
+
+        const partido2 = btn[2].addEventListener('click', () => {
+            const golesA = Math.floor(Math.random() * 5);
+            const golesB = Math.floor(Math.random() * 5);
+            equipo4[1].innerHTML = golesA;
+            equipo2[1].innerHTML = golesB;
+
+            if (golesA > golesB) {
+                Toastify({ text: "CAMERUN + 3 PUNTOS", duration: 10000, style: { background: "#012A00c1", }, offset: { x: '8em', y: '14em' }, }).showToast();
+            } else if (golesA == golesB) {
+                Toastify({ text: "CAMERUN + 1 PUNTO", duration: 10000, style: { background: "#012A00c1", }, offset: { x: '8em', y: '14em' }, }).showToast();
+                Toastify({ text: "SERBIA + 1 PUNTO", duration: 10000, style: { background: "#0B0B3Bc1", }, offset: { x: '8em', y: '14em' }, }).showToast();
+            } else {
+                Toastify({ text: "SERBIA + 3 PUNTOS", duration: 10000, style: { background: "#0B0B3Bc1", }, offset: { x: '8em', y: '14em' }, }).showToast();
+            };
+        });
+
+        const partido3 = btn[3].addEventListener('click', () => {
+            const golesA = Math.floor(Math.random() * 5);
+            const golesB = Math.floor(Math.random() * 5);
+            equipo1[1].innerHTML = golesA;
+            equipo3[1].innerHTML = golesB;
+
+            if (golesA > golesB) {
+                Toastify({ text: "BRASIL + 3 PUNTOS", duration: 10000, style: { background: "#0B610Bc1", }, offset: { x: '8em', y: '14em' }, }).showToast();
+            } else if (golesA == golesB) {
+                Toastify({ text: "BRASIL + 1 PUNTO", duration: 10000, style: { background: "#0B610Bc1", }, offset: { x: '8em', y: '14em' }, }).showToast();
+                Toastify({ text: "SUIZA + 1 PUNTO", duration: 10000, style: { background: "#500000c1", }, offset: { x: '8em', y: '14em' }, }).showToast();
+            } else {
+                Toastify({ text: "SUIZA + 3 PUNTOS", duration: 10000, style: { background: "#500000c1", }, offset: { x: '8em', y: '14em' }, }).showToast();
+            };
+        });
+
+        const partido4 = btn[4].addEventListener('click', () => {
+            const golesA = Math.floor(Math.random() * 5);
+            const golesB = Math.floor(Math.random() * 5);
+            equipo4[2].innerHTML = golesA;
+            equipo1[2].innerHTML = golesB;
+
+            if (golesA > golesB) {
+                Toastify({ text: "CAMERUN + 3 PUNTOS", duration: 10000, style: { background: "#012A00c1", }, offset: { x: '8em', y: '14em' }, }).showToast();
+            } else if (golesA == golesB) {
+                Toastify({ text: "CAMERUN + 1 PUNTO", duration: 10000, style: { background: "#012A00c1", }, offset: { x: '8em', y: '14em' }, }).showToast();
+                Toastify({ text: "BRASIL + 1 PUNTO", duration: 10000, style: { background: "#0B610Bc1", }, offset: { x: '8em', y: '14em' }, }).showToast();
+            } else {
+                Toastify({ text: "BRASIL + 3 PUNTOS", duration: 10000, style: { background: "#0B610Bc1", }, offset: { x: '8em', y: '14em' }, }).showToast();
+            };
+        });
+
+        const partido5 = btn[5].addEventListener('click', () => {
+            const golesA = Math.floor(Math.random() * 5);
+            const golesB = Math.floor(Math.random() * 5);
+            equipo2[2].innerHTML = golesA;
+            equipo3[2].innerHTML = golesB;
+
+            if (golesA > golesB) {
+                Toastify({ text: "SERBIA + 3 PUNTOS", duration: 10000, style: { background: "#0B0B3Bc1", }, offset: { x: '8em', y: '14em' }, }).showToast();
+            } else if (golesA == golesB) {
+                Toastify({ text: "SERBIA + 1 PUNTO", duration: 10000, style: { background: "#0B0B3Bc1", }, offset: { x: '8em', y: '14em' }, }).showToast();
+                Toastify({ text: "SUIZA + 1 PUNTO", duration: 10000, style: { background: "#500000c1", }, offset: { x: '8em', y: '14em' }, }).showToast();
+            } else {
+                Toastify({ text: "SUIZA + 3 PUNTOS", duration: 10000, style: { background: "#500000c1", }, offset: { x: '8em', y: '14em' }, }).showToast();
+            };
+        });
+
+    </script>
+
+</body>
+
+</html>

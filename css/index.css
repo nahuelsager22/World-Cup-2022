@@ -1,0 +1,324 @@
+body {
+    background-image: url(../assets/background.jpg);
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+#div {
+    background-color: rgba(0, 0, 0, 0.850);
+    color: #fff;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+    width: 100%;
+    height: 50px;
+    font-family: cursive;
+}
+
+#seleccion {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    height: auto;
+    width: 30%;
+    text-align: center;
+    background-color: rgba(255, 0, 0, 0.114);
+    border-radius: 15px;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 22px;
+    padding: .5%;
+}
+
+#nav {
+    flex: 0 1 auto;
+    order: 0;
+    align-self: auto;
+    height: auto;
+    width: 70%;
+    margin-right: 2%;
+    text-align: center;
+}
+
+#grupos {
+    border: 5px solid transparent;
+    font-size: 20px;
+    color: #fff;
+}
+
+#grupos:hover {
+    border: 5px solid rgba(255, 0, 0, 0.200);
+    border-radius: 15px;
+    padding: 2px;
+}
+
+#div2 {
+    background-color: rgba(0, 0, 0, 0.607);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    border: 2px solid rgb(110, 116, 0);
+    height: 38em;
+    justify-content: center;
+    margin-top: 1%;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: cursive;
+}
+
+#form {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    height: auto;
+}
+
+.question {
+    font-size: 18px;
+    border: 5px solid rgba(255, 0, 0, 0);
+    border-radius: 30px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: rgba(0, 0, 0, 0.607);
+    color: rgb(214, 214, 214);
+}
+
+.question1 {
+    width: 150px;
+    height: 20px;
+    margin: 0px 0px 0px 15px;
+    border: 1px solid rgb(147, 0, 0);
+    border-radius: 30px;
+    background-color: rgba(139, 0, 0, 0.795);
+    color: #fff;
+    font-family: cursive;
+    font-size: 11px;
+    text-align: center;
+}
+
+.question2 {
+    width: 150px;
+    height: 20px;
+    margin: 0;
+    border: 1px solid rgb(147, 0, 0);
+    border-radius: 30px;
+    background-color: rgba(139, 0, 0, 0.795);
+    color: #fff;
+    font-family: cursive;
+    font-size: 11px;
+    text-align: center;
+}
+
+#campeonContainer {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    width: 80%;
+    height: 1px;
+    font-size: 25px;
+    background: red;
+    color: rgb(201, 158, 1);
+    text-align: center;
+    margin: 2% 0 0% 0;
+}
+
+#campeon {
+    margin: 2% 0 5% 0;
+}
+
+#mundial {
+    background-color: rgb(255, 255, 255);
+    color: rgb(135, 142, 0);
+    border-radius: 15px;
+    border: 2px solid rgb(116, 0, 0);
+    margin-top: 20%;
+    margin-bottom: 10%;
+    padding: 1%;
+    text-align: center;
+}
+
+#mundial2 {
+    background-color: rgb(255, 255, 255);
+    color: rgb(135, 142, 0);
+    border-radius: 15px;
+    border: 2px solid rgb(116, 0, 0);
+    margin-top: 10%;
+    padding: 1%;
+    text-align: center;
+}
+
+#contador {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+}
+
+#contador li {
+    display: flex;
+    background-color: #0d0d0d;
+    color: #ffffff;
+    border-radius: 15px;
+    border: 1px solid rgb(116, 0, 0);
+    font-size: 35px;
+    font-weight: bold;
+    height: 50px;
+    padding: 8px 12px;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    width: 40px;
+}
+
+#contador li:before,
+#contador li:after {
+    position: absolute;
+}
+
+#contador li:not(:last-child):before {
+    content: ":";
+    font-size: 24px;
+    right: -15px;
+    top: 15px;
+}
+
+#contador li:after {
+    bottom: -16px;
+    display: flex;
+    font-family: 'Caveat', cursive;
+    font-size: 11px;
+    font-weight: 100;
+    justify-content: center;
+    width: calc(100% - 22px);
+}
+
+#contador li.dias:after {
+    content: "dias";
+}
+
+#contador li.horas:after {
+    content: "horas";
+}
+
+#contador li.minutos:after {
+    content: "minutos";
+}
+
+#contador li.segundos:after {
+    content: "segundos";
+}
+
+@media (max-width:1250px) {
+    #seleccion {
+        font-size: 18px;
+    }
+
+    #grupos {
+        display: inline-block;
+        font-size: 14px;
+    }
+
+    .question {
+        display: block;
+    }
+
+    .question1 {
+        font-size: 15px;
+    }
+
+    .question2 {
+        margin: 5% 0 0 0;
+    }
+}
+
+@media (max-width:940px) {
+    #div {
+        display: block;
+        height: auto;
+        padding: 1px;
+    }
+
+    #seleccion {
+        width: auto;
+        font-size: 20px;
+    }
+
+    #nav {
+        width: 100%;
+    }
+
+    #grupos {
+        display: inline-block;
+        border: 3px solid transparent;
+        font-size: 15px;
+    }
+
+    #div2 {
+        display: block;
+        height: auto;
+        justify-content: center;
+        margin-top: 5%;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .question {
+        display: block;
+        font-size: 15px;
+        width: auto;
+        text-align: center;
+    }
+
+    .question1 {
+        display: inline-block;
+        width: 50%;
+        height: auto;
+        margin: 5% 0 0 0%;
+        transform: translate(50%, -50%);
+        font-size: 10px;
+    }
+
+    .question2 {
+        display: inline-block;
+        width: 50%;
+        height: auto;
+        margin: 5% 0 0 0;
+        position: absolute;
+        transform: translate(-50%, 30%);
+        font-size: 10px;
+    }
+
+    #campeonContainer {
+        width: 100%;
+        font-size: 15px;
+        margin: 8% 0 0 0;
+    }
+
+    #mundial {
+        margin-top: 15%;
+        margin-bottom: 5%;
+        font-size: 20px;
+    }
+
+    #mundial2 {
+        margin-top: 10%;
+        font-size: 15px;
+    }
+
+    #contador {
+        display: inline-block;
+        margin-right: 2%;
+    }
+    
+    #contador li {
+        display: inline-block;
+        height: 100%;
+        padding: 10px 10px;
+        position: relative;
+        width: auto;
+    }
+}

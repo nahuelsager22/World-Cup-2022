@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Cup Qatar 2022</title>
+    <link rel="shortcut icon" href="../assets/icono.jpg" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+
+<body>
+
+    <div id="div">
+        <h3 id="seleccion">Elige un grupo para sortear</h3>
+        <nav id="nav">
+            <a href="../html/grupoa.html" data-pagina="grupoa" id="grupos">GRUPO A</a>
+            <a href="../html/grupob.html" data-pagina="grupob" id="grupos">GRUPO B</a>
+            <a href="../html/grupoc.html" data-pagina="grupoc" id="grupos">GRUPO C</a>
+            <a href="../html/grupod.html" data-pagina="grupod" id="grupos">GRUPO D</a>
+            <a href="../html/grupoe.html" data-pagina="grupoe" id="grupos">GRUPO E</a>
+            <a href="../html/grupof.html" data-pagina="grupof" id="grupos">GRUPO F</a>
+            <a href="../html/grupog.html" data-pagina="grupog" id="grupos">GRUPO G</a>
+            <a href="../html/grupoh.html" data-pagina="grupoh" id="grupos">GRUPO H</a>
+        </nav>
+    </div>
+
+    <div id="div2">
+
+        <form action="" id="form">
+            <label for="nuevoCampeon" class="question">¿QUIÉN CREES QUE SERÁ EL NUEVO CAMPEÓN?</label>
+            <input type="text" autocomplete="off" id="nuevoCampeon" class="question1">
+            <!-- <input type="submit" id="enviar" class="question1"> -->
+            <button type="submit" id="prediccion" class="question2">PREDECIR</button>
+        </form>
+        <div id="campeonContainer">
+            <p id="campeon" style="text-transform: uppercase;">CAMPEÓN: </p>
+        </div>
+        <div>
+            <h2 id="mundial">Faltan:</h2>
+            <ul id="contador">
+                <li class="dias"></li>
+                <li class="horas"></li>
+                <li class="minutos"></li>
+                <li class="segundos"></li>
+            </ul>
+            <h2 id="mundial2">PARA EL MUNDIAL <br> 2026</h2>
+        </div>
+    </div>
+    </div>
+
+    <script src="../js/index.js"></script>
+</body>
+
+</html>
